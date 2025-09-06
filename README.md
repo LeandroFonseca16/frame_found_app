@@ -11,10 +11,10 @@ O **FrameFound** é um aplicativo mobile desenvolvido em Flutter que permite aos
 ## 🎥 Demonstração
 
 ### Android
-[![Demonstração Android](./assets/thumb.png)](https://www.youtube.com/shorts/GVXjB34C4Fw)
+[![Demonstração Android](./assets/images/thumb.png)](https://www.youtube.com/shorts/GVXjB34C4Fw)
 
 ### iOS
-[![Demonstração iOS](./assets/thumb.png)](https://youtube.com/shorts/LqHi9pqhl6E)
+[![Demonstração iOS](./assets/images/thumb.png)](https://youtube.com/shorts/LqHi9pqhl6E)
 
 > Clique na imagem para assistir a demonstração no YouTube.
 
