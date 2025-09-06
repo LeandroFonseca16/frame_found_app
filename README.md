@@ -153,7 +153,7 @@ cd frame_found_app
 flutter pub get
 
 # Execute o aplicativo
-flutter run
+flutter run --dart-define-from-file=env-dev.json --flavor dev
 ```
 
 ### **Build para Dev**
