@@ -32,3 +32,4 @@ flutter:
     - lib/assets/
     - lib/assets/images/
     - lib/assets/lotties/
+    - env.json
