@@ -6,6 +6,20 @@
 
 O **FrameFound** é um aplicativo mobile desenvolvido em Flutter que permite aos usuários buscar informações detalhadas sobre filmes e séries. O projeto foi construído seguindo os princípios da Clean Architecture, SOLID e padrões de design modernos, garantindo código limpo, testável e facilmente mantível.
 
+---
+
+## 🎥 Demonstração
+
+### Android
+[![Demonstração Android](https://img.youtube.com/vi/VIDEO_ID_ANDROID/0.jpg)](https://www.youtube.com/shorts/GVXjB34C4Fw)
+
+### iOS
+[![Demonstração iOS](https://img.youtube.com/vi/VIDEO_ID_IOS/0.jpg)](https://youtube.com/shorts/LqHi9pqhl6E)
+
+> Clique na imagem para assistir a demonstração no YouTube.
+
+---
+
 ## ✨ Funcionalidades Principais
 
 ### 🔍 **Tela de Busca de Filmes**
