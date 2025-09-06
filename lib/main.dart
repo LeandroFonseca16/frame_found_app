@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:frame_found_app/shared/env/env.dart';
 import 'package:frame_found_app/modules/splash/splash_page.dart';
 import 'package:provider/provider.dart';
 import 'configs/dependencies.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Env.load();
   runApp(const MyApp());
 }
 
