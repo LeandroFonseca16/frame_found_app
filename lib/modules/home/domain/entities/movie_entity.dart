@@ -7,9 +7,9 @@ class MovieEntity {
     required this.poster,
   });
 
-  final String? title;
+  final String title;
   final String? year;
-  final String? imdbId;
+  final String imdbId;
   final String? type;
   final String? poster;
 }
