@@ -1,0 +1,5 @@
+{
+  "flavor": "dev",
+  "host" : "https://www.omdbapi.com/",
+  "apikey": "49ed91d8"
+}
