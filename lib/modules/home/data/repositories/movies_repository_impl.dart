@@ -17,7 +17,7 @@ class MoviesRepositoryImpl implements MoviesRepository {
       }
 
       final movies = await movieService.searchMovies(query: query);
-      return Success(movies);
+      return movies;
     } catch (e) {
       return Failure('Erro ao buscar filmes: ${e.toString()}');
     }

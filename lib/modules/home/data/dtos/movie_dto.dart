@@ -13,9 +13,9 @@ extension MovieDto on MovieEntity {
 
   static MovieEntity fromMap(Map<String, dynamic> map) {
     return MovieEntity(
-      title: map["Title"],
+      title: map["Title"] ?? '',
       year: map["Year"],
-      imdbId: map["imdbID"],
+      imdbId: map["imdbID"] ?? '',
       type: map["Type"],
       poster: map["Poster"],
     );
