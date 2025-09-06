@@ -142,12 +142,24 @@ flutter pub get
 flutter run
 ```
 
+### **Build para Dev**
+```bash
+# Android
+flutter build apk --dart-define-from-file=env-dev.json --flavor dev
+flutter build appbundle --dart-define-from-file=env-dev.json --flavor dev
+
+
+# iOS
+flutter build ios --dart-define-from-file=env-dev.json --flavor dev
+```
+
 ### **Build para Produção**
 ```bash
 # Android
-flutter build apk --flavor prod
-flutter build appbundle --flavor prod
+flutter build apk --dart-define-from-file=env.json --flavor prod
+flutter build appbundle --dart-define-from-file=env.json --flavor prod
+
 
 # iOS
-flutter build ios --flavor prod
+flutter build ios --dart-define-from-file=env.json --flavor prod
 ```
